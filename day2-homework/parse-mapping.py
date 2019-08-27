@@ -23,7 +23,7 @@ for line in map_file:
                 start_map_test = False
                 continue
             fields = line.strip().split()
-            if len(fields) != 4 or "DROME" not in fields[1]:
+            if len(fields) != 4 or "DROME" not in line:
                 continue
             out_file.write("%s\t%s\n" %(fields[3], fields[2]))
 map_file.close()
