@@ -9,7 +9,7 @@ import sys
 #out_file is the file you want to print to
 
 #not_found_input is the command used to determine what the script does when 
-#confronted with gene identities from c_tab_file not found in mao_file.
+#confronted with gene identities from c_tab_file not found in map_file.
     #if you want these values to be left blank, input "ignore" as not_found_input. 
     #input "default" to have these values set to "N/A"
 
