@@ -3,8 +3,15 @@
 import sys
 
 #map_file is the output text file from the first excersize (fly-parsed.out)
+
 #c_tab_file is any .ctab file from ../results/stringtie/
+
 #out_file is the file you want to print to
+
+#not_found_input is the command used to determine what the script does when confronted with gene identities from c_tab_file not found in mao_file.
+    #if you want these values to be left blank, input "ignore" as not_found_input. input "default" to have these values set to "N/A"
+
+#to run the script, input ./identifier_mapping.py <map_file> <c_tab_file> <out_file> <not_found_input>
 
 map_file = open(sys.argv[1],"r")
 c_tab_file = open(sys.argv[2],"r")
