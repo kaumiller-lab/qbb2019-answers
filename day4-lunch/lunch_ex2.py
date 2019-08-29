@@ -3,7 +3,7 @@
 """
 Usage: ./lunch_ex2.py <ctab1> <ctab2>
 
-compares two ctab files
+compares FPKM for two ctab files
 """
 
 import sys
