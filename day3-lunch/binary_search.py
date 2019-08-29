@@ -25,7 +25,7 @@ for line in genome:
     seq_start = fields[3]
     seq_end = fields[4]
     gene_name = fields[13]
-    
+
     if chrom != '3R' or seq_type != 'gene' or 'gene_biotype "protein_coding"' not in line:
         continue
         
@@ -39,6 +39,7 @@ mid = 0
 iterations = 0
 
 while (lo <= hi):
+
     if hi - lo == 2:
         first_start = abs(gene_list[0 + lo][0] - search_pos)
         first_end = abs(gene_list[0 + lo][1] - search_pos)
@@ -55,7 +56,7 @@ while (lo <= hi):
     mid = int((hi + lo) / 2)
     iterations = iterations + 1
     if (search_pos < gene_list[mid][0]):
-        hi = mid
+        hi = mid + 1
     elif (search_pos > gene_list[mid][1]):
         lo = mid
     else:
