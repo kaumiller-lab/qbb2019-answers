@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Usage: ./homework_ex3.py FBtr0331261 ~/qbb2019/data/samples.csv replicates.csv ../results/stringtie/
-Create a timecourse of a given transcript for females and males
+Usage: ./homework_ex3.py <t_name> ~/qbb2019/data/samples.csv replicates.csv ../results/stringtie/
+Create a timecourse of a given transcript for male and female Drosophila
 
 """
 import sys
