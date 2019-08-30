@@ -2,15 +2,9 @@
 
 import sys
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 
 ctab = sys.argv[1]
-
-df = pd.read_csv(sys.argv[1])
-
-col_names = df.columns.values.tolist()
-
 
 for i, line in enumerate(open(ctab)):
     if i == 0:
