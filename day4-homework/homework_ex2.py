@@ -35,8 +35,7 @@ ax2.boxplot(female_trans.loc[goi,:].T)
 
 ax1.set_title("male box plot")
 ax1.set_ylabel("log2 FPKM")
-ax1.set_xticklabels(["10", "11", "12", "13", "14A", "14B", "14C", "14C"], rotation = 45)
-
+ax1.set_xticklabels(["10", "11", "12", "13", "14A", "14B", "14C", "14D"], rotation = 45)
 ax2.set_title("female box plot")
 ax2.set_ylabel("log2 FPKM")
 ax2.set_xticklabels(["10", "11", "12", "13", "14A", "14B", "14C", "14D"], rotation = 45)
