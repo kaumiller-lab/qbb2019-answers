@@ -10,11 +10,11 @@ k = int(sys.argv[3])
 
 target_dict = {}
 target_name = {}
-final_dict = {}
+final_list = []
 
 for ident, sequence in target:
     sequence = sequence.upper()
-    target_name[ident] = target_sequence
+    target_name[ident] = sequence
     for i in range(0, len(sequence) - k + 1):
         kmer = sequence[i:i+k]
         if kmer in target_dict:
@@ -24,32 +24,44 @@ for ident, sequence in target:
 
 for ident, sequence in query:
     sequence = sequence.upper()
+    # print("here")
     for j in range(0, len(sequence) - k + 1):
-        kmer = sequence[i:i+k]
+        # print("here")
+        kmer = sequence[j:j+k]
         if kmer in target_dict:
             for target_sequence_name, target_start in target_dict[kmer]:
+                # print("here")
                 query_start = j
-                
-                target_sequence = target_name[ident]
+                i = target_start
+                target_sequence = target_name[target_sequence_name]
                 query_length = len(sequence)
                 target_length = len(target_sequence)
                 extend_right = True
                 extended_kmer = kmer 
-                print(target_sequence_name, target_start, query_start, kmer)
+                # print(target_sequence_name, target_start, query_start, kmer)
     
                 while True:
+                    if query_length <= (j + k + 1) or target_length <= (i + k + 1):
+                        extend_right = False
                     if extend_right:
-                        if sequence[j + k + 1] == target_sequence[j + k + 1]:
-                            i == 1
-                            j == 1
-                            extended_kmer += sequence[i + j +1]
+                        # print(query_length)
+                        # print(target_length)
+                        # print(j+k+1)
+                        # print(i+k+1)
+                        if sequence[j + k + 1] == target_sequence[i + k + 1]:
+                            i += 1
+                            j += 1
+                            extended_kmer += sequence[k + j + 1]
                         else:
                             extend_right = False
                     else:
-                        break #this is where I would add the extension to ny dictionary
+                        final_list.append((len(extended_kmer), target_sequence_name, target_start, query_start, extended_kmer))
+                        break
                         
-                    if query_length == (j + k) or target_length == (j + k):
-                        extended_right = False
+for len_,target_sequence_name, target_start, query_start, extended_kmer in sorted(final_list, reverse = True):
+    print(len_,target_sequence_name, target_start, query_start, extended_kmer, sep = "\t")                        
+
+    
 
 
 
