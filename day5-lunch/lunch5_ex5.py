@@ -12,7 +12,7 @@ H3K4me1 = pd.read_csv(sys.argv[2], sep="\t", header = None, names= ["t_name", "s
 H3K4me3 = pd.read_csv(sys.argv[3], sep="\t", header = None, names= ["t_name", "size", "covered", "sum", "mean_zero", "mean"], index_col="t_name")
 H3K9me3 = pd.read_csv(sys.argv[4], sep="\t", header = None, names= ["t_name", "size", "covered", "sum", "mean_zero", "mean"], index_col="t_name")
 
-df = pd.DataFrame(np.log(ctab["FPKM"]+ 1))
+df = pd.DataFrame(ctab["FPKM"])
 
 df["H3K4me1"] = H3K4me1["mean"]
 df["H3K4me3"] = H3K4me3["mean"]
