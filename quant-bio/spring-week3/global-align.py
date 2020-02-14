@@ -44,23 +44,23 @@ def needle(s1, s2):
     i,j = m,n
     #Traceback
     while i > 0 and j > 0:
-        score_current = score[i][j]
-        score_diag = score[i-1][j-1]
-        score_left = score[i][j-1]
-        score_up = score[i-1][j]
-        print('score_current: ',score_current)
-        print('score_diag: ',score_diag)
-        print('score_left: ',score_left)
-        print('score_up: ',score_up)
-        if score_current == score_diag + mch(s1[i-1], s2[j-1]):
+        current_score = score[i][j]
+        diagonal = score[i-1][j-1]
+        left = score[i][j-1]
+        up = score[i-1][j]
+        print('current_score: ',current_score)
+        print('diagonal:',diagonal)
+        print('left:',left)
+        print('up:',up)
+        if current_score == diagonal + mch(s1[i-1], s2[j-1]):
             print('diag')
             a1,a2 = s1[i-1],s2[j-1]
             i,j = i-1,j-1
-        elif score_current == score_up + pt['gap']:
+        elif current_score == up + pt['gap']:
             print('up')
             a1,a2 = s1[i-1],'-'
             i -= 1
-        elif score_current == score_left + pt['gap']:
+        elif current_score == left + pt['gap']:
             print('left')
             a1,a2 = '-',s2[j-1]
             j -= 1
