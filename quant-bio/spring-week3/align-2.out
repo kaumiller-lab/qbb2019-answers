@@ -1,0 +1,442 @@
+score matrix = 
+[[     0.   -300.   -600. ... -17700. -18000. -18300.]
+ [  -300.    300.      0. ... -17100. -17400. -17700.]
+ [  -600.      0.    600. ... -16500. -16800. -17100.]
+ ...
+ [-17700. -17100. -16500. ...  17100.  16800.  16500.]
+ [-18000. -17400. -16800. ...  16800.  17400.  17100.]
+ [-18300. -17700. -17100. ...  16500.  17100.  17700.]]
+
+score_current:  17700.0
+score_diag:  17400.0
+score_left:  17100.0
+score_up:  17100.0
+diag
+Add ---> a1 = >	 a2 = >
+
+score_current:  17400.0
+score_diag:  17100.0
+score_left:  16800.0
+score_up:  16800.0
+diag
+Add ---> a1 = '	 a2 = '
+
+score_current:  17100.0
+score_diag:  16800.0
+score_left:  16500.0
+score_up:  16500.0
+diag
+Add ---> a1 = 8	 a2 = 8
+
+score_current:  16800.0
+score_diag:  16500.0
+score_left:  16200.0
+score_up:  16200.0
+diag
+Add ---> a1 = -	 a2 = -
+
+score_current:  16500.0
+score_diag:  16200.0
+score_left:  15900.0
+score_up:  15900.0
+diag
+Add ---> a1 = F	 a2 = F
+
+score_current:  16200.0
+score_diag:  15900.0
+score_left:  15600.0
+score_up:  15600.0
+diag
+Add ---> a1 = T	 a2 = T
+
+score_current:  15900.0
+score_diag:  15600.0
+score_left:  15300.0
+score_up:  15300.0
+diag
+Add ---> a1 = U	 a2 = U
+
+score_current:  15600.0
+score_diag:  15300.0
+score_left:  15000.0
+score_up:  15000.0
+diag
+Add ---> a1 = '	 a2 = '
+
+score_current:  15300.0
+score_diag:  15000.0
+score_left:  14700.0
+score_up:  14700.0
+diag
+Add ---> a1 = =	 a2 = =
+
+score_current:  15000.0
+score_diag:  14700.0
+score_left:  14400.0
+score_up:  14400.0
+diag
+Add ---> a1 = g	 a2 = g
+
+score_current:  14700.0
+score_diag:  14400.0
+score_left:  14100.0
+score_up:  14100.0
+diag
+Add ---> a1 = n	 a2 = n
+
+score_current:  14400.0
+score_diag:  14100.0
+score_left:  13800.0
+score_up:  13800.0
+diag
+Add ---> a1 = i	 a2 = i
+
+score_current:  14100.0
+score_diag:  13800.0
+score_left:  13500.0
+score_up:  13500.0
+diag
+Add ---> a1 = d	 a2 = d
+
+score_current:  13800.0
+score_diag:  13500.0
+score_left:  13200.0
+score_up:  13200.0
+diag
+Add ---> a1 = o	 a2 = o
+
+score_current:  13500.0
+score_diag:  13200.0
+score_left:  12900.0
+score_up:  12900.0
+diag
+Add ---> a1 = c	 a2 = c
+
+score_current:  13200.0
+score_diag:  12900.0
+score_left:  12600.0
+score_up:  12600.0
+diag
+Add ---> a1 = n	 a2 = n
+
+score_current:  12900.0
+score_diag:  12600.0
+score_left:  12300.0
+score_up:  12300.0
+diag
+Add ---> a1 = e	 a2 = e
+
+score_current:  12600.0
+score_diag:  12300.0
+score_left:  12000.0
+score_up:  12000.0
+diag
+Add ---> a1 =  	 a2 =  
+
+score_current:  12300.0
+score_diag:  12000.0
+score_left:  11700.0
+score_up:  11700.0
+diag
+Add ---> a1 = '	 a2 = '
+
+score_current:  12000.0
+score_diag:  11700.0
+score_left:  11400.0
+score_up:  11400.0
+diag
+Add ---> a1 = r	 a2 = r
+
+score_current:  11700.0
+score_diag:  11400.0
+score_left:  11100.0
+score_up:  11100.0
+diag
+Add ---> a1 = '	 a2 = '
+
+score_current:  11400.0
+score_diag:  11100.0
+score_left:  10800.0
+score_up:  10800.0
+diag
+Add ---> a1 = =	 a2 = =
+
+score_current:  11100.0
+score_diag:  10800.0
+score_left:  10500.0
+score_up:  10500.0
+diag
+Add ---> a1 = e	 a2 = e
+
+score_current:  10800.0
+score_diag:  10500.0
+score_left:  10200.0
+score_up:  10200.0
+diag
+Add ---> a1 = d	 a2 = d
+
+score_current:  10500.0
+score_diag:  10200.0
+score_left:  9900.0
+score_up:  9900.0
+diag
+Add ---> a1 = o	 a2 = o
+
+score_current:  10200.0
+score_diag:  9900.0
+score_left:  9600.0
+score_up:  9600.0
+diag
+Add ---> a1 = m	 a2 = m
+
+score_current:  9900.0
+score_diag:  9600.0
+score_left:  9300.0
+score_up:  9300.0
+diag
+Add ---> a1 =  	 a2 =  
+
+score_current:  9600.0
+score_diag:  9300.0
+score_left:  9000.0
+score_up:  9000.0
+diag
+Add ---> a1 = '	 a2 = '
+
+score_current:  9300.0
+score_diag:  9000.0
+score_left:  8700.0
+score_up:  8700.0
+diag
+Add ---> a1 = t	 a2 = t
+
+score_current:  9000.0
+score_diag:  8700.0
+score_left:  8400.0
+score_up:  8400.0
+diag
+Add ---> a1 = x	 a2 = x
+
+score_current:  8700.0
+score_diag:  8400.0
+score_left:  8100.0
+score_up:  8100.0
+diag
+Add ---> a1 = t	 a2 = t
+
+score_current:  8400.0
+score_diag:  8100.0
+score_left:  7800.0
+score_up:  7800.0
+diag
+Add ---> a1 = .	 a2 = .
+
+score_current:  8100.0
+score_diag:  8400.0
+score_left:  8100.0
+score_up:  8100.0
+diag
+Add ---> a1 = 1	 a2 = 2
+
+score_current:  8400.0
+score_diag:  8100.0
+score_left:  7800.0
+score_up:  7800.0
+diag
+Add ---> a1 = q	 a2 = q
+
+score_current:  8100.0
+score_diag:  7800.0
+score_left:  7500.0
+score_up:  7500.0
+diag
+Add ---> a1 = e	 a2 = e
+
+score_current:  7800.0
+score_diag:  7500.0
+score_left:  7200.0
+score_up:  7200.0
+diag
+Add ---> a1 = s	 a2 = s
+
+score_current:  7500.0
+score_diag:  7200.0
+score_left:  6900.0
+score_up:  6900.0
+diag
+Add ---> a1 = '	 a2 = '
+
+score_current:  7200.0
+score_diag:  6900.0
+score_left:  6600.0
+score_up:  6600.0
+diag
+Add ---> a1 = =	 a2 = =
+
+score_current:  6900.0
+score_diag:  6600.0
+score_left:  6300.0
+score_up:  6300.0
+diag
+Add ---> a1 = e	 a2 = e
+
+score_current:  6600.0
+score_diag:  6300.0
+score_left:  6000.0
+score_up:  6000.0
+diag
+Add ---> a1 = m	 a2 = m
+
+score_current:  6300.0
+score_diag:  6000.0
+score_left:  5700.0
+score_up:  5700.0
+diag
+Add ---> a1 = a	 a2 = a
+
+score_current:  6000.0
+score_diag:  5700.0
+score_left:  5400.0
+score_up:  5400.0
+diag
+Add ---> a1 = n	 a2 = n
+
+score_current:  5700.0
+score_diag:  5400.0
+score_left:  5100.0
+score_up:  5100.0
+diag
+Add ---> a1 =  	 a2 =  
+
+score_current:  5400.0
+score_diag:  5100.0
+score_left:  4800.0
+score_up:  4800.0
+diag
+Add ---> a1 = r	 a2 = r
+
+score_current:  5100.0
+score_diag:  4800.0
+score_left:  4500.0
+score_up:  4500.0
+diag
+Add ---> a1 = e	 a2 = e
+
+score_current:  4800.0
+score_diag:  4500.0
+score_left:  4200.0
+score_up:  4200.0
+diag
+Add ---> a1 = p	 a2 = p
+
+score_current:  4500.0
+score_diag:  4200.0
+score_left:  3900.0
+score_up:  3900.0
+diag
+Add ---> a1 = p	 a2 = p
+
+score_current:  4200.0
+score_diag:  3900.0
+score_left:  3600.0
+score_up:  3600.0
+diag
+Add ---> a1 = a	 a2 = a
+
+score_current:  3900.0
+score_diag:  3600.0
+score_left:  3300.0
+score_up:  3300.0
+diag
+Add ---> a1 = r	 a2 = r
+
+score_current:  3600.0
+score_diag:  3300.0
+score_left:  3000.0
+score_up:  3000.0
+diag
+Add ---> a1 = W	 a2 = W
+
+score_current:  3300.0
+score_diag:  3000.0
+score_left:  2700.0
+score_up:  2700.0
+diag
+Add ---> a1 = O	 a2 = O
+
+score_current:  3000.0
+score_diag:  2700.0
+score_left:  2400.0
+score_up:  2400.0
+diag
+Add ---> a1 = I	 a2 = I
+
+score_current:  2700.0
+score_diag:  2400.0
+score_left:  2100.0
+score_up:  2100.0
+diag
+Add ---> a1 = t	 a2 = t
+
+score_current:  2400.0
+score_diag:  2100.0
+score_left:  1800.0
+score_up:  1800.0
+diag
+Add ---> a1 = x	 a2 = x
+
+score_current:  2100.0
+score_diag:  1800.0
+score_left:  1500.0
+score_up:  1500.0
+diag
+Add ---> a1 = e	 a2 = e
+
+score_current:  1800.0
+score_diag:  1500.0
+score_left:  1200.0
+score_up:  1200.0
+diag
+Add ---> a1 = T	 a2 = T
+
+score_current:  1500.0
+score_diag:  1200.0
+score_left:  900.0
+score_up:  900.0
+diag
+Add ---> a1 = .	 a2 = .
+
+score_current:  1200.0
+score_diag:  900.0
+score_left:  600.0
+score_up:  600.0
+diag
+Add ---> a1 = o	 a2 = o
+
+score_current:  900.0
+score_diag:  600.0
+score_left:  300.0
+score_up:  300.0
+diag
+Add ---> a1 = i	 a2 = i
+
+score_current:  600.0
+score_diag:  300.0
+score_left:  0.0
+score_up:  0.0
+diag
+Add ---> a1 = _	 a2 = _
+
+score_current:  300.0
+score_diag:  0.0
+score_left:  -300.0
+score_up:  -300.0
+diag
+Add ---> a1 = <	 a2 = <
+
+Identity = 98.4 percent
+Score = 17700
+
+<_io.TextIOWrapper name='seq1.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='seq .txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='seq2.txt' mode='r' encoding='UTF-8'>
