@@ -1,0 +1,24 @@
+2
+a.   Glucocorticoid receptor
+b.   10/7/2003
+c.   X-ray Diffraction
+d.  3Å. Shortest distance that can be resolved
+e.   Crystallographic Analysis of the Interaction of the Glucocorticoid Receptor with DNA
+
+3.   
+4.  
+5. 
+6.   
+a.   Action, show, hide, label
+7.   
+8.
+9.   
+10.      
+a.   
+11.        
+a. Green, Red, Blue, Orange
+12.        
+a.  angstroms
+b.  19.6 angstroms between phosphates of strand 1 DA 19 base paired with strand 2 DT 2
+13.       Make images of an AT pair and of a GC pair. Indicate which side is the major and minor grooves.
+
